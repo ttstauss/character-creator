@@ -1,6 +1,8 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  background: linear-gradient(to top, hsl(195deg, 20%, 86%) 40%, white 40%);
+  background-attachment: fixed;
 }
 
 .maxWidthWrapper {
@@ -8,6 +10,7 @@
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -27,4 +30,5 @@
 }
 
 .controlColumn {
+  max-width: 50%;
 }
