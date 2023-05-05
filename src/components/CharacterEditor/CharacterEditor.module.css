@@ -1,11 +1,14 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
-  background: linear-gradient(to top, hsl(195deg, 20%, 86%) 40%, white 40%);
-  background-attachment: fixed;
+  
+  /* this is an alternative for the perspective div */
+  /* background: linear-gradient(to top, hsl(195deg, 20%, 86%) 40%, white 40%);
+  background-attachment: fixed; */
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -36,4 +39,13 @@
 
 .controlColumn {
   max-width: 50%;
+}
+
+.perspectiveEffect {
+  position: fixed;
+  top: 60%;
+  left: 0%;
+  height: 40%;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
 }
